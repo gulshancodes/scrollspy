@@ -1,2 +1,2 @@
-# scrollspy
+# Scrollspy
 Scrollspy using Intersection Observer
