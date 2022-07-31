@@ -1,0 +1,104 @@
+/*
+    * Project Name : Scrollspy using Intersection Observer
+    * Built by : 'Gulshan Songara'
+*/
+
+/*--====== Global Variables ======--*/
+:root {
+    --bg-color: #13131f;
+    --bg-color-2: #161623;
+    --text-color: #a9afc3;
+}
+
+/*--====== CSS Reset ======--*/
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+    width: auto;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #191c26;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #454a4d;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #60696e;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+/*--====== Header ======--*/
+header {
+    background-color: var(--bg-color);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    width: 100%;
+}
+
+.navlinks {
+    padding: 20px;
+}
+
+.navlinks ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.navlinks li a {
+    font-size: 17px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    transition: color .3s ease;
+}
+
+.navlinks li a.active,
+.navlinks li:hover a {
+    color: lightseagreen;
+}
+
+section:nth-child(odd) {
+    background-color: var(--bg-color-2);
+}
+
+section {
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+h1 {
+    font-size: 50px;
+}
