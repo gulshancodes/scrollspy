@@ -1,7 +1,7 @@
 # Scrollspy
 Scrollspy using Intersection Observer
 
-### [Demo Link](https://candid-shots.netlify.app) 🔗
+### [Demo Link](https://gulshancodes.github.io/scrollspy/) 🔗
 
 Scrollspy is used to automatically update links in a navigation list based on scroll position of the page.
 <br/>
