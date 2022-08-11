@@ -1,5 +1,5 @@
 # Scrollspy
-#### Scrollspy using JavaScript - Intersection Observer API.
+#### Scrollspy using JavaScript - Intersection Observer API
 
 ### [Demo Link](https://gulshancodes.github.io/scrollspy/) 🔗
 
