@@ -1,9 +1,9 @@
 # Scrollspy
-Scrollspy using Intersection Observer
+#### Scrollspy using JavaScript - Intersection Observer API.
 
 ### [Demo Link](https://gulshancodes.github.io/scrollspy/) 🔗
 
-Scrollspy is used to automatically update links in a navigation list based on scroll position of the page.
+**Scrollspy** is used to automatically update the links in a navigation list based on scroll position of the page.
 <br/>
 
 ## Author:
